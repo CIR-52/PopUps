@@ -43,7 +43,7 @@ def move_window(window):
     # 设置下一次移动(200毫秒后)
     window.after(200, move_window, window)
 
-# 创建8个窗口
+# 创建20个窗口
 windows = []
 for _ in range(20):
     w = create_window()
